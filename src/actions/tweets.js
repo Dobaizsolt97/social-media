@@ -1,8 +1,9 @@
-export const RECEIVE_TWEETS = 'RECEIVE_TWEETS'
+export const RECEIVE_TWEETS = "RECEIVE_TWEETS";
 
-export function receiveTweets(tweets){
-    return{
-        type:RECEIVE_TWEETS,
-        tweets
-    }
+//action creator
+export function receiveTweets(tweets) {
+  return {
+    type: RECEIVE_TWEETS,
+    tweets
+  };
 }
